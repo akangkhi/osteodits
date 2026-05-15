@@ -64,7 +64,8 @@ export default function App() {
       return { ok, status: ok ? 200 : 0, time };
     } catch (error) {
       const time = Date.now() - start;
-      console.log(`Error for ${url}:`, error.message, `in ${time}ms`);
+      const errorMessage = error instanceof Error ? error.message : String(error);
+      console.log(`Error for ${url}:`, errorMessage, `in ${time}ms`);
       return { ok: false, status: 0, time };
     }
   };
