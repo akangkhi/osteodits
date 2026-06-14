@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://akangkhi.github.io/osteodits/sitemap.xml
