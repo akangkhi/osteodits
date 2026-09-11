@@ -16,9 +16,9 @@ import {
 // Configuration
 const DEFAULT_LINKS = [
   "https://osteo1.pve-23.jaysgrid.online/",
-  "https://osteo.pve-2.jaysgrid.online/"
+  "https://osteo.pve-3.jaysgrid.online/"
 ];
-const DEFAULT_FALLBACK = "https://osteo.pve-2.jaysgrid.online/";
+const DEFAULT_FALLBACK = "https://osteo.pve-3.jaysgrid.online/";
 const REDIRECT_DELAY_MS = 5000;
 
 const Stage = {
